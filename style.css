@@ -1,0 +1,73 @@
+.bckgimg{
+  background-image: url(https://i.pinimg.com/originals/e3/05/11/e305116b64bd71c9097e7cffe90053ed.jpg);
+   min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.bckgimg2{
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2023/01/Estrelas.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1 {
+    font-family: "Old English Text MT";
+    font-size: 49px;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+
+}
+
+.text   {
+    font-size: 28px;
+    color: #ffff;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    text-align: justify;
+    font-family: "Times New Roman";
+
+}
+
+.bckgtxt{
+	background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+
+	}
+
+.paulin {
+    height: 500px;
+    width: 700px;
+    
+
+}
+
+a:hover{
+    color: #EBDE58;
+    font-size: 35px;
+    
+}
+
+img{
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
