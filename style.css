@@ -48,12 +48,6 @@ h1 {
 
 	}
 
-.paulin {
-    height: 500px;
-    width: 700px;
-    
-
-}
 
 a:hover{
     color: #EBDE58;
@@ -71,3 +65,19 @@ img{
     width: auto;
     padding: 20px;
 }
+
+
+.topbox{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.topbox a {
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 40px;
+  }
+  
+
