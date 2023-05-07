@@ -16,6 +16,16 @@
     background-size: cover;
   }
 
+.bckgimg3{
+  background-image: url(imagens/Screenshot_94.png);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}  
+
 h1 {
     font-family: "Old English Text MT";
     font-size: 49px;
@@ -45,13 +55,12 @@ h1 {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 3%;
-
 	}
 
 
 a:hover{
     color: #EBDE58;
-    font-size: 35px;
+    font-size: 40px;
     
 }
 
@@ -74,6 +83,7 @@ a:hover{
     height: 150px;
     text-align: center;
     margin-bottom: 20px;
+   
 }
 
 .item_container_bottom{
@@ -101,7 +111,28 @@ a:hover{
   }
 
   #link{
-    font-family: "Old English Text MT";
-    
+    font-family: "Old English Text MT";    
   }
   
+.box{
+  display: inline-block;
+  margin: 10px 15px;
+  background-color: #ffff;
+  width: 240px;
+  height: 150px; 
+  border-radius: 15px;
+  
+}
+
+#bingusbangus {
+  margin-left: 155px;
+}
+
+#first_containner{
+  position: fixed;
+  bottom: 0;
+}
+
+#text_background_1 {
+  margin-top: 200px;
+}
