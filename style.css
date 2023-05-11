@@ -61,6 +61,7 @@ h1 {
 a:hover{
     color: #EBDE58;
     font-size: 40px;
+    transition: 0.3s;
     
 }
 
@@ -116,16 +117,20 @@ a:hover{
   
 .box{
   display: inline-block;
+  text-align: center;
   margin: 10px 15px;
   background-color: #ffff;
   width: 240px;
   height: 150px; 
   border-radius: 15px;
+  justify-content: center;
+  
   
 }
 
-#bingusbangus {
-  margin-left: 155px;
+.box a {
+  justify-content: center;
+  justify-items: center;
 }
 
 #first_containner{
@@ -135,4 +140,10 @@ a:hover{
 
 #text_background_1 {
   margin-top: 200px;
+}
+
+
+.item_container_top h1{
+  text-align: center;
+  position: fixed;
 }
