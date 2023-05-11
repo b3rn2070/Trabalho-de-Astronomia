@@ -116,21 +116,24 @@ a:hover{
   }
   
 .box{
-  display: inline-block;
-  text-align: center;
-  margin: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
   background-color: #ffff;
   width: 240px;
   height: 150px; 
   border-radius: 15px;
-  justify-content: center;
-  
-  
+  border: 1px #0000;
+  position: relative;
 }
 
-.box a {
-  justify-content: center;
-  justify-items: center;
+.box:hover{
+    color: #EBDE58;
+    font-size: 40px;
+    transition: 0.3s;
+    height: 210px;
+    width: 310px;
 }
 
 #first_containner{
@@ -139,11 +142,30 @@ a:hover{
 }
 
 #text_background_1 {
-  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
 .item_container_top h1{
   text-align: center;
-  position: fixed;
+  margin: 0;
+  padding: 37px;
+}
+
+#bingusbangus{
+  background-image: url(imagens/download.jpeg);
+  
+}
+
+#estrela{
+  background-image: url(https://media.guiame.com.br/archives/2022/10/26/1379463825-nasa.png);
+
+}
+
+#buraconegro{
+  background-image: url(https://static.todamateria.com.br/upload/bu/ra/buraconegro1.jpg?auto_optimize=low);
+
 }
