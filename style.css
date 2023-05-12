@@ -172,13 +172,15 @@ a:hover{
 .box a{
   font-family: "Old English Text Mt";
   color: black;
+  opacity: 0;
   font-size: 40px;
 }
 
 .box:hover a {
-  font-size: 45px;
+  font-size: 50px;
   transition: 150ms linear;
-  color: #EBDE58;
+  color: #AE46E5;
+  opacity: 1;
   
 }
 
@@ -239,5 +241,5 @@ h6 {
     font-family: "Times New Roman";
     margin-left: 10%;
     margin-right: 10%;
-        
+
 }
