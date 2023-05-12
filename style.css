@@ -50,11 +50,16 @@ h1 {
     padding: 10px;
     text-align: justify;
     font-family: "Times New Roman";
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 2em;
 
 }
 
+
+
 .bckgtxt{
-	background-color: rgba(0, 0, 0, 0.5);
+	  background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 40px;
     margin-left: 20%;
@@ -67,18 +72,6 @@ a:hover{
     color: #EBDE58;
     font-size: 40px;
     
-}
-
-.bckgtxt img{
-    border-radius: 30px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    max-width: 90%;
-    height: auto;
-    width: auto;
-    padding: 20px;
-    margin-right: 0px;
 }
 
 
@@ -189,6 +182,62 @@ a:hover{
   
 }
 
+#last-p-bb{
+  margin-bottom: 2em;
+}
 
+#last-p-bb{
+  margin-bottom: 2em;
+}
 
+img{
+  display: block;
+  margin: 0px auto;
+}
 
+#radiacao-funda{
+  margin-top: 3em;
+  height: 50%;
+  width: auto;
+}
+
+#estrelas{
+  margin-top: 3em;
+}
+
+h6 {
+  text-align: justify;
+  color: #ffff;
+  font-size: 1.1em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#negasso{
+  margin-top: 3em;
+  width: 60%;
+  height: auto;
+}
+
+.legenda{
+  color:#c1c1c1;
+  padding-left: 38%;
+}
+
+#legendabn{
+  padding-left: 43%;
+}
+
+#container-ref{
+  bottom: 0;
+  position: fixed;
+}
+
+.ref{
+  font-size: 28px;
+    color: #ffff;
+    font-family: "Times New Roman";
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
