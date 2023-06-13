@@ -1,5 +1,5 @@
 .bckgimg{
-  background-image: url(https://i.pinimg.com/originals/e3/05/11/e305116b64bd71c9097e7cffe90053ed.jpg);
+  background-image: url(imagens/e305116b64bd71c9097e7cffe90053ed.jpg);
    min-height: 500px;
    background-attachment: fixed;
    background-position: center;
@@ -8,7 +8,7 @@
 }
 
 .bckgimg2{
-    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2023/01/Estrelas.jpg);
+    background-image: url(imagens/Estrelas.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -59,12 +59,13 @@ h1 {
 
 
 .bckgtxt{
-	  background-color: rgba(0, 0, 0, 0.5);
+	  background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 40px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 3%;
+    
 	}
 
 
@@ -96,6 +97,7 @@ a:hover{
     display: inline-block;
     margin: 0 10px;
     margin-top: 40px;
+    text-align: center;
   }
 
   .item_container_bottom a {
@@ -130,6 +132,7 @@ a:hover{
 .box:hover{
     height: 310px;
     width: 410px;
+    transition-delay: 150ms;
 }
 
 #first_containner{
@@ -153,18 +156,18 @@ a:hover{
 }
 
 #bingusbangus{
-  background-image: url(https://conceitosdomundo.pt/wp-content/uploads/2021/10/teoria-do-big-bang.jpg);
+  background-image: url(imagens/teoria-do-big-bang.jpg);
   background-position: center;
   
 }
 
 #estrela{
-  background-image: url(https://media.guiame.com.br/archives/2022/10/26/1379463825-nasa.png);
+  background-image: url(imagens/1379463825-nasa.webp);
 
 }
 
 #buraconegro{
-  background-image: url(https://spacetoday.com.br/wp-content/uploads/2015/02/gargantua_00.jpg);
+  background-image: url(imagens/gargantua_00.jpg);
   background-position: center;
 
 }
@@ -181,6 +184,7 @@ a:hover{
   transition: 150ms linear;
   color: #AE46E5;
   opacity: 1;
+  transition-delay: 150ms;
   
 }
 
@@ -195,6 +199,7 @@ a:hover{
 img{
   display: block;
   margin: 0px auto;
+  border-radius: 10%;
 }
 
 #radiacao-funda{
@@ -207,7 +212,7 @@ img{
   margin-top: 3em;
 }
 
-h6 {
+h5 {
   text-align: justify;
   color: #ffff;
   font-size: 1.1em;
@@ -223,11 +228,12 @@ h6 {
 
 .legenda{
   color:#c1c1c1;
-  padding-left: 38%;
 }
 
 #legendabn{
-  padding-left: 43%;
+  text-align: center;
+  margin: 0%;
+  font-size: 16px;
 }
 
 #container-ref{
@@ -242,4 +248,28 @@ h6 {
     margin-left: 10%;
     margin-right: 10%;
 
+}
+
+#leg_bingusbangus {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+#leg_txt_bb{
+  margin: 0%;
+  font-size: 16px;
+  text-align: center;
+}
+
+#leg_negasso{
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+
+#leg_sobre{
+  text-align: center;
+  margin: 0%;
+  font-size: 16px;
 }
